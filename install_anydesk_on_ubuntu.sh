@@ -16,3 +16,6 @@ sudo dpkg -i ${VERSION}
 sudo apt-get install -f
 
 rm -f ${VERSION}
+
+echo <password> | anydesk --set-password
+anydesk --get-id
